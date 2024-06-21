@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-image: url(background.webp);
+    background-size: cover;
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.heading{
+   font-size: 100px;
+   margin-top: 50px;
+}
+
+.container{
+   text-align: center;
+   margin-top: 30px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    font-size:50px;
+    padding: 10px;    
+}
+
+input:hover{
+    border: 1px solid rgb(54, 139, 165);
+    background-color:   rgb(189, 197, 199);
+}
+
+button:hover{
+    background-color: rgb(54, 139, 165);
+   
+}
+
+button:active{
+    background-color:rgb(88, 169, 194) ;
+}
+
+button{
+    border: none;
+    height: 70px;
+    width: 100px;
+    border-radius: 50px;
+    font-size: 50px;
+    
+}
+
+#display{
+    height: 70px;
+    width: 100px;
+    font-size: 50px;
+    /* border: 1px solid black; */
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.result{
+    font-size: 80px;
+}
